@@ -6,7 +6,7 @@ import com.centurylink.mail.dao.MailDAO;
 import com.centurylink.mail.datamodel.MailInfo;
 
 public class MailParser {
-	private static ReadingEmail readingEmail = new ReadingEmail("mail.corp.intranet", "ctl\\links", "Century7ink0214");
+	private static ReadingEmail readingEmail = new ReadingEmail("mail.corp.intranet", "userid", "passwd");
 	
 	/**
 	 * @param args
